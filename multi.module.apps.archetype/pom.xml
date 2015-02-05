@@ -6,7 +6,8 @@
 
     <groupId>com.vdoc.engineering</groupId>
     <artifactId>multi.module.apps.archetype</artifactId>
-    <version>1.2</version>
+    <version>1.5</version>
+    <packaging>jar</packaging>
 
     <build>
         <extensions>
@@ -27,6 +28,7 @@
         </pluginManagement>
     </build>
 
+    <!--
     <distributionManagement>
         <repository>
             <id>vdoc</id>
@@ -39,5 +41,5 @@
             <url>${vdoc.deploy.server}/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-
+-->
 </project>
